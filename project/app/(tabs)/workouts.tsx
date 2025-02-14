@@ -25,7 +25,7 @@ export default function WorkoutsScreen() {
         {workoutCategories.map((category) => (
           <Pressable key={category.name} style={styles.categoryCard}>
             <View style={styles.categoryIcon}>
-              <Ionicons name={category.icon as any} size={24} color="#6366f1" />
+              <Ionicons name={category.icon as any} size={24} color="#ffc800" />
             </View>
             <Text style={styles.categoryName}>{category.name}</Text>
           </Pressable>
@@ -39,7 +39,7 @@ export default function WorkoutsScreen() {
             <Pressable key={index} style={styles.workoutCard}>
               <View style={styles.workoutHeader}>
                 <View style={styles.workoutIcon}>
-                  <Ionicons name="barbell" size={20} color="#6366f1" />
+                  <Ionicons name="barbell" size={20} color="#ffc800" />
                 </View>
                 <View style={styles.workoutInfo}>
                   <Text style={styles.workoutName}>Full Body Workout</Text>
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: '#6366f1',
+    backgroundColor: '#d9aa00',
     alignItems: 'center',
     justifyContent: 'center',
   },

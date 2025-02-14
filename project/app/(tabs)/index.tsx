@@ -114,6 +114,7 @@ const styles = StyleSheet.create({
   statLabel: {
     fontSize: 12,
     color: '#9ca3af',
+    textAlign:'center'
   },
   section: {
     padding: 20,
